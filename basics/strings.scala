@@ -9,13 +9,13 @@ val rangeOfInts = (1 to 200).toList
 val coerceList = List(0, 1, 2, 3, 4, 5, 6, 7)  
 val tuple = (orisha, aFloat, noneval, rangeOfInts)
 
-tuple._1
-tuple._2
+println(tuple._1)
+println(tuple._2)
 
 val xmlRepresentation = <p><a href="http://instagram.com/">Hood Physics</a></p>
 val unitType : Unit  = ()
 val unitType2 = ()
 val aMapper = Map("name" -> "aMapper", "weight" -> 34, "height" -> 30)
 
-aMapper.get('name')
-aMapper.getOrElse("color", "black")
+println(aMapper.get("name"))
+println(aMapper.getOrElse("color", "black"))
